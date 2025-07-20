@@ -1,34 +1,56 @@
-h1, h4{
-    font-family: "sans-serif";
+@font-face {
+    font-family: 'Geishta';
+    src: url('geishta/Geishta.ttf') format('truetype'),
+    url('geishta/Geishta.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'amanojaku';
+    src: url('amanojaku/Amanojaku Demo.otf') format('truetype'),
+    url('amanojaku/Amanojaku Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1{
-    position: absolute;
-    top: 15%;
-    left: 35%;
+    font-family: 'amanojaku';
+    text-align: center;
+    margin-top: 45px;
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     position: absolute;
     top: 27%;
-    left: 40%;
+    left: 20%;
 }
 
-h4{
-    position: absolute;
-    top: 55%;
-    left: 35%;
+body{
+    background: #F5F1E3;
+
 }
 
 #generate-btn{
+    font-family: 'Geishta';
     position: absolute;
     top: 70%;
     left: 45%;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+    font-size: 40px;
+    background-color: #FEE577;
+    border-color: #FBC71A;
+}
+
+blockquote{
+    font-family: 'amanojaku';
+    position: absolute;
+    top: 27%;
+    right: 15%;
 }
 
