@@ -5,7 +5,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'amanojaku';
     src: url('amanojaku/Amanojaku Demo.otf') format('truetype'),
@@ -28,6 +27,12 @@ img{
     position: absolute;
     top: 27%;
     left: 20%;
+    transition: ease 1s;
+}
+
+img:hover{
+    box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
+    transform: scale(1.1);
 }
 
 body{
@@ -45,12 +50,31 @@ body{
     font-size: 40px;
     background-color: #FEE577;
     border-color: #FBC71A;
+    transition: ease 1s;
+}
+
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 blockquote{
-    font-family: 'amanojaku';
+    font-family: 'Courgette', sans-serif;
     position: absolute;
     top: 27%;
-    right: 15%;
+    left: 45%;
+    border: 2px solid #1f2937;
+    max-width: 700px;
+    font-size: 20px;
 }
+
+#generate-btn:hover{
+    background-color: #ffd103;
+    border-bottom-color: black;
+    box-shadow: 0px 0px 25px 5px #ffd103;
+    transform: scale(1.1);
+}
+
 
