@@ -64,24 +64,31 @@ body{
 
 .container{
     display: flex;
-    margin-top: 38vh;
+    margin-top: 20vh;
     flex-direction: column;
     gap: 2rem;
+    /*border: 2px solid #1f2937;*/
 }
 
 #main{
     font-family: 'Courgette', sans-serif;
-    position: absolute;
-    top: 27%;
-    left: 45%;
-    max-width: 700px;
-    font-size: 20px;
+    position: static;
+    margin: 0 5em 0 auto;
+    font-size: 30px;
+    word-wrap: break-word;
+    max-width: 48vw;
+    text-align: center;
     /*border: 2px solid #1f2937;*/
 }
 
 #cite{
-    font-family: sans-serif;
-    font-style: italic;
+    position: static;
+    text-align: right;
+    max-width: 70vw;
+    font-size: 20px;
+    margin: 0 10vw 0 auto;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
     /*border: 2px solid #1f2937;*/
 }
 
@@ -90,6 +97,12 @@ body{
     border-bottom-color: black;
     box-shadow: 0px 0px 25px 5px #ffd103;
     transform: scale(1.1);
+}
+
+footer{
+    position: fixed;
+    display: block;
+    bottom: 10px;
 }
 
 @media (max-width: 450px){
@@ -155,6 +168,12 @@ body{
         border-bottom-color: black;
         box-shadow: 0px 0px 25px 5px #ffd103;
         transform: scale(1.1);
+    }
+
+    footer{
+        position: fixed;
+        display: block;
+        bottom: 30px;
     }
 }
 
