@@ -8,7 +8,7 @@ A simple web app that displays random anime quotes. Built with HTML, CSS, and Ja
 - Responsive for mobile and desktop.
 
 ## Demo
-[Live Demo](https://your-github-username.github.io/random-anime-quotes-generator/)
+[Live Demo](https://taupe-mochi-ca254f.netlify.app/)
 
 ## How to Use
 Click the "Generate Quote" button to get a random anime quote.
