@@ -14,7 +14,7 @@
 }
 
 h1{
-    font-family: 'amanojaku';
+    font-family: 'amanojaku', sans-serif;
     text-align: center;
     margin-top: 45px;
 }
@@ -43,7 +43,7 @@ body{
 }
 
 #generate-btn{
-    font-family: 'Geishta';
+    font-family: 'Geishta', sans-serif;
     position: absolute;
     top: 70%;
     left: 45%;
@@ -87,12 +87,12 @@ body{
     max-width: 70vw;
     font-size: 20px;
     margin: 0 10vw 0 auto;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", sans-serif;
     font-weight: bold;
     /*border: 2px solid #1f2937;*/
 }
 
-#generate-btn:hover{
+#generate-btn:active{
     background-color: #ffd103;
     border-bottom-color: black;
     box-shadow: 0px 0px 25px 5px #ffd103;
@@ -142,7 +142,7 @@ footer{
         word-wrap: break-word;
         max-width: 90vw;
         text-align: center;
-        font-family: "Courgette";
+        font-family: "Courgette", sans-serif;
     }
 
     #cite{
@@ -151,7 +151,7 @@ footer{
         max-width: 70vw;
         font-size: 3vw;
         margin: 0 10vw 0 auto;
-        font-family: "Comic Sans MS";
+        font-family: "Comic Sans MS", sans-serif;
         font-weight: bold;
     }
 
